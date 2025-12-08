@@ -10,8 +10,8 @@ from ta.momentum import RSIIndicator
 app = FastAPI()
 
 # Load model and scaler
-model = joblib.load("model.pkl")
-scaler = joblib.load("scaler.pkl")
+model_url = https://huggingface.co/indraaz/back1/resolve/main/model.pkl
+scaler_url = https://huggingface.co/indraaz/back1/resolve/main/scaler.pkl
 
 
 # --- Fetch Live Stock Data (FREE API Source) ---
